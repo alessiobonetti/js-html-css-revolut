@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* LIST */
+.top_bar_left li , .top_bar_right li {
+  list-style: none;
+}
+
+/* TOP BAR */
+#top_bar {
+  display: flex;
+  width: 95%;
+  margin: auto;
+}
+
+.top_bar_left {
+  width: 30%;
+  background-color: red;
+}
+
+.top_bar_right {
+  width: 70%;
+  background-color: blue;
+}
