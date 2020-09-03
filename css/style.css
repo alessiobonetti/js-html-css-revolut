@@ -8,6 +8,10 @@
 * a {
   text-decoration: none;
 }
+/* RELATIVE */
+.pos_relative{
+  position: relative;
+}
 
 /* FLEX */
 .dsp_flex {
@@ -59,4 +63,15 @@
 .top_bar_right , .top_bar_left {
   height: 60px;
   line-height: 60px;
+}
+
+/* FADE MENU */
+.show_menu_list {
+  display: none;
+  position: absolute;
+  width: 150px;
+  text-align: center;
+  background-color: #F5F5F5;
+  border-radius: 20px;
+  box-shadow: 10px 10px 8px #888888;
 }
